@@ -43,6 +43,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
 
+/*
+Tap-Hold Configuration
+refs.
+  - https://docs.qmk.fm/#/feature_advanced_keycodes?id=permissive-hold
+  - https://docs.qmk.fm/#/feature_advanced_keycodes?id=retro-tapping
+*/
+
+#define PERMISSIVE_HOLD
+#define RETRO_TAPPING
+
 // Underglow
 /*
 #undef RGBLED_NUM
